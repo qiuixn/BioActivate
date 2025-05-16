@@ -1,0 +1,24 @@
+=== 对接报告 ===
+受体文件: receptor_clean.pdbqt
+配体总数: 20
+成功对接: 12
+失败数量: 8
+盒子中心: [16.4495, -18.56, 22.796499999999998]
+盒子尺寸: [82.1985, 120.912, 111.0375]
+
+在分子对接实验中，结合能（Binding Energy）是一个重要的指标，用于评估配体分子与目标蛋白之间的结合强度。
+结合能越低（负值越绝对），通常表示配体与蛋白的结合越紧密、越稳定。
+AutoDock Vina：结合能通常在 -5 kcal/mol 到 -10 kcal/mol 之间。如果结合能低于 -7 kcal/mol，通常认为结合效果较好。
+详细结果:
+CHEMBL1231371_ligand_docked.pdbqt: -8.35 kcal/mol
+CHEMBL1173353_ligand_docked.pdbqt: -7.20 kcal/mol
+CHEMBL2163640_ligand_docked.pdbqt: -7.83 kcal/mol
+CHEMBL1836571_ligand_docked.pdbqt: -8.12 kcal/mol
+CHEMBL2419597_ligand_docked.pdbqt: -8.90 kcal/mol
+CHEMBL3585833_ligand_docked.pdbqt: -7.32 kcal/mol
+CHEMBL3617098_ligand_docked.pdbqt: -6.67 kcal/mol
+CHEMBL3681319_ligand_docked.pdbqt: -8.46 kcal/mol
+CHEMBL3716299_ligand_docked.pdbqt: -7.93 kcal/mol
+CHEMBL420029_ligand_docked.pdbqt: -7.55 kcal/mol
+CHEMBL4435879_ligand_docked.pdbqt: -6.68 kcal/mol
+CHEMBL4453770_ligand_docked.pdbqt: -8.09 kcal/mol
