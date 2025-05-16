@@ -18,6 +18,10 @@ X = featurizer.featurize(df['smiles'])
 y = df['standard_value'].values
 dataset = dc.data.NumpyDataset(X=X, y=y)
 
+# import tensorflow as tf
+# # 限制TensorFlow线程池
+# tf.config.threading.set_intra_op_parallelism_threads(4)  # 单个操作内部线程数
+# tf.config.threading.set_inter_op_parallelism_threads(2)  # 操作间并行线程数
 # 数据集划分
 splitter = RandomSplitter()
 train_dataset, test_dataset = splitter.train_test_split(dataset, frac_train=0.8)
