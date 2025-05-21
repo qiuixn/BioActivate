@@ -8,7 +8,7 @@ import hashlib
 
 
 # 将SMILES转换为图数据的函数
-def smiles_to_graph_no_3D_structure(smiles, target_chembl_id, molecule_chembl_id, ligand_efficiency, value):
+def smiles_to_graph_structure(smiles, target_chembl_id, molecule_chembl_id, ligand_efficiency, value):
     """
     将SMILES字符串转换为图数据对象。
 
