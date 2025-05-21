@@ -1,5 +1,5 @@
 # BioActivate
-模型训练：TrainerGraph.py
-模型预测：test.py
-筛选：filterPredict.py
-分子对接：flex_dock.py
+model training：TrainerGraph.py
+model prediction：test.py
+filter：filterPredict.py
+molecular docking：flex_dock.py
